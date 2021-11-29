@@ -1,14 +1,14 @@
 # Proyecto encuesta basica - Front
 
-Problema 1:
-Crear una encuesta con tres campos:
-    1. Nombre: Campo de texto plano.
-    2. Estado civil: Multiple opción (Soltero, Casado, Viudo, Divorciado). El encuestado solo podrá selecionar una opción.
-    3. Fecha de nacimiento: Usar formato mm-dd-yyyy.
+## Parte 1:
+Crear una encuesta con los siguientes tres campos:
+1. Nombre: Campo de texto plano.
+2. Estado civil: Multiple opción (Soltero, Casado, Viudo, Divorciado). El encuestado solo podrá selecionar una opción.
+3. Fecha de nacimiento: Usar formato mm-dd-yyyy.
 
 Crear un botón Enviar y utilizar el metodo POST 'localhost:8080/encuesta/add' del back para guardar información en base de datos.
 
-Problema 2:
+## Parte 2:
 Generar un listado de las encuestas que fueron guardadas. Utilizando el metodo GET 'localhost:8080/encuesta/all' del back. Ejemplo dado a continuación:
 
     -----------------------------------------------------
@@ -20,13 +20,10 @@ Generar un listado de las encuestas que fueron guardadas. Utilizando el metodo G
 
 Se puede utilizar boostrap para el estilo de las tablas y el formulario. Y se aconseja el uso de fetch para la comunicación con el back.
 
-## Comandos básicos 
+## Comandos básicos
 
-Para correr este proyecto en modo desarrollo se debe usar
-
-### `npm start`
-
-Abrir [http://localhost:3000](http://localhost:3000) para verlo en el explorador.
+1. Para correr este proyecto en modo desarrollo se debe usar `npm start`
+2. Abrir [http://localhost:3000](http://localhost:3000) para verlo en el explorador.
 
 ## Para más información puede
 
